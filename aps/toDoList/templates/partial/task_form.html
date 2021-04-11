@@ -1,0 +1,15 @@
+<style>
+    .form-error {
+	    color: red;
+	    font-size: 12px;
+	    margin: 5px 0 0 0
+    }
+    .field-error {
+	    border: solid 1px red;
+	    box-shadow: red 0 0 3px;
+    }
+
+</style>
+{% csrf_token %}
+    {{ form.as_p }}
+    <p><input type="submit" value="{{ button_text }}"></p>

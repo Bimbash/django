@@ -1,0 +1,42 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 2,
+  "fields": {
+    "title": "New Title",
+    "text": "New Text",
+    "author": "Name",
+    "created_at": "2021-03-30T06:12:48.637Z",
+    "updated_at": "2021-03-30T06:12:48.637Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 3,
+  "fields": {
+    "title": "Title",
+    "text": "Some long informative text",
+    "author": "Name",
+    "created_at": "2021-03-30T06:16:35.915Z",
+    "updated_at": "2021-03-30T06:16:35.915Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$hIzeKbawWZCd$g3ryJS5GgzlIKv3VWGipwubPqpv5/Lkr6vKThnHWqJ0=",
+    "last_login": "2021-03-30T07:33:09.713Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "bimbash.yana03.10.98@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-30T07:29:57.938Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

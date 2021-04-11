@@ -1,0 +1,35 @@
+<style>
+    .form-error {
+	    color: red;
+	    font-size: 12px;
+	    margin: 5px 0 0 0
+    }
+    .field-error {
+	    border: solid 1px red;
+	    box-shadow: red 0 0 3px;
+    }
+
+</style>
+{% csrf_token %}
+    {{ form.as_p }}
+    <p><input type="submit" value="{{ button_text }}"></p>
+
+{#{% for error in form.non_field_errors %}#}
+{#    <p class="form-error">{{ error }}</p>#}
+{#{% endfor %}#}
+{#<p><label for="{{ form.title.id_for_label }}">{{ form.title.label }}</label></p>#}
+{#{% for error in form.title.errors %}#}
+{#    <p class="form-error">{{ error }}</p>#}
+{#{% endfor %}#}
+{#<p>{{ form.title }}</p>#}
+{#<p><label for="{{ form.author.id_for_label }}">{{ form.author.label }}</label></p>#}
+{#{% for error in form.author.errors %}#}
+{#    <p class="form-error">{{ error }}</p>#}
+{#{% endfor %}#}
+{#<p>{{ form.author }}</p>#}
+{#<p><label for="{{ form.text.id_for_label }}">{{ form.text.label }}</label></p>#}
+{#{% for error in form.text.errors %}#}
+{#    <p class="form-error">{{ error }}</p>#}
+{#{% endfor %}#}
+{#<p>{{ form.text }}</p>#}
+{#<p><input type="submit" value="{{ button_text }}"></p>#}
